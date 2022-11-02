@@ -1,0 +1,7 @@
+const myList = [
+["Test", 5],
+["People", 7],
+["Elements", 12],
+["Variables", 3],
+["Bar",32],
+];
