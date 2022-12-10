@@ -1,0 +1,20 @@
+<style>
+  div:hover{
+    transform:scale(1.1);
+  }
+  div {
+    width: 70%;
+    height: 100px;
+    margin:  50px auto;
+    background: linear-gradient(
+      53deg,
+      #ccfffc,
+      #ffcccf
+    );
+  }
+
+
+
+</style>
+
+<div></div>
