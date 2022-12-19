@@ -1,0 +1,9 @@
+function squareDigits(n){
+  var result = "";
+ var string = String(n)
+ for(var i=0;i<string.length;i++){
+   let square = parseInt(string[i]) * parseInt(string[i])
+   result += String(square);
+ }
+  return parseInt(result)
+}
