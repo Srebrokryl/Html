@@ -1,0 +1,1 @@
+let yourArray = ["act",7,false,null,undefined]; // Change this line
