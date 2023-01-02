@@ -1,0 +1,19 @@
+function findShort(s){
+  var currentLength =0;
+  var shortLength = 1000;
+  for(var i =0;i<s.length;i++){
+    if(s[i]==" "){
+      if(currentLength<shortLength){
+        shortLength = currentLength
+      }
+      currentLength = 0;
+    }
+    else{
+      currentLength++
+    }
+  }
+  if(currentLength<shortLength){
+    shortLength=currentLength
+  }
+  return shortLength
+}
