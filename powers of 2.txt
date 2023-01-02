@@ -1,0 +1,9 @@
+function powersOfTwo(n){
+  var array = [];
+  var exp;
+  for(var i =0;i<=n;i++){
+    exp = 2**i
+    array.push(exp);
+  }
+  return array
+}
