@@ -1,0 +1,7 @@
+function grow(x){
+  var z = 1;
+  for(var i=0;i<x.length;i++){
+    z*=x[i]
+  }
+  return z
+}
