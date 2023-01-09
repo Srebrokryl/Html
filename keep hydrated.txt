@@ -1,0 +1,7 @@
+function litres(time) {
+  var litres
+  var half
+  half = time/2
+  litres = Math.floor(half)
+  return litres;
+}
