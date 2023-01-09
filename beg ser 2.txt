@@ -1,0 +1,5 @@
+function past(h, m, s){
+  var result = ((h*60*60)+(m*60)+(s))*1000
+  return result
+  //#Happy Coding! ^_^
+}
