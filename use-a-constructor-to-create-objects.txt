@@ -1,0 +1,6 @@
+function Dog() {
+  this.name = "Rupert";
+  this.color = "brown";
+  this.numLegs = 4;
+}
+var hound = new Dog // Only change code below this line
