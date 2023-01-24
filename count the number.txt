@@ -1,0 +1,8 @@
+var countSquares = function(N){
+  if(N==0){
+    return 1
+  } 
+  else{
+  return 6*N**2+2
+}
+  }
