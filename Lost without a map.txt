@@ -1,0 +1,7 @@
+function maps(x){
+const array =[];
+  for(var i=0;i<x.length;i++){
+   array.push(x[i]*2)
+  }
+  return array
+}
