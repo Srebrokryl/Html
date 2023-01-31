@@ -1,0 +1,10 @@
+function numberToPower(number, power){
+  var integer = number;
+  if(power==0){
+    return 1
+  }
+  for(var i=2;i<=power;i++){
+    integer *=number;
+  }
+  return integer
+}
