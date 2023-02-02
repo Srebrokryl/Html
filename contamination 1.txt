@@ -1,0 +1,8 @@
+function contamination(text, char){
+  let newChar = "";
+  for(let i=0;i<text.length;i++){
+    newChar += char
+  }
+  return newChar
+  // Code here ;)
+}
