@@ -1,0 +1,4 @@
+function index(array, n){
+  return array[n]**n || -1
+  //your code here
+}
