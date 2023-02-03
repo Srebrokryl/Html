@@ -1,0 +1,9 @@
+function sumTriangularNumbers(n) {
+let sum =0;
+let fullSum=0;
+  for(let i=0;i<=n;i++){
+    sum+=i;
+    fullSum+=sum;
+  }
+  return fullSum
+}
