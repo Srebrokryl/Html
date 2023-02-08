@@ -1,0 +1,10 @@
+function multiplyAll(arr) {
+  let anotherFunction = function(n){
+    let newArr =[];
+    for(let i=0;i<arr.length;i++){
+      newArr.push(arr[i]*n)
+    }
+    return newArr
+  }
+  return anotherFunction
+}
