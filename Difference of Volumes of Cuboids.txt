@@ -1,0 +1,17 @@
+function findDifference(a, b) {
+  let suma =1;
+  let sumb =1;
+  for(let i=0;i<a.length;i++){
+    suma *= a[i];
+  }
+  for(let j=0;j<b.length;j++){
+    sumb *= b[j];
+    }
+    if(suma>sumb){
+      return suma-sumb
+    }
+    else{
+      return sumb-suma
+    }
+  //loading...
+}
