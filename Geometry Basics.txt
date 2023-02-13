@@ -1,0 +1,6 @@
+function distanceBetweenPoints(a, b) {
+  let x = a.x - b.x;
+  let y = a.y - b.y;
+  return Math.sqrt(x**2+y**2)
+   // your code here
+}
