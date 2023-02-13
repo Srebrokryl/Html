@@ -1,0 +1,11 @@
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    let currentMin =args[0];
+    for (let i=0;i<args.length;i++){
+      if(currentMin>args[i]){
+        currentMin = args[i]
+      }
+    }
+     return currentMin 
+  }
+}
