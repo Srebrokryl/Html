@@ -1,0 +1,19 @@
+function countPositivesSumNegatives(input) {
+  if(input==null || input.length==0){
+      return []
+    }
+  let sum =0;
+  let negativeSum=0;
+  let array = [];
+  for(let i=0;i<input.length;i++){
+    if(input[i]>0){
+      sum++
+    }
+    else{
+      negativeSum+=input[i]
+    }
+  }
+  array.push(sum,negativeSum)
+  return array
+  // your code here
+}
