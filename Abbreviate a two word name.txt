@@ -1,0 +1,8 @@
+function abbrevName(name){
+  let array = name.split(" ");
+  let firstName = array[0];
+  let secondName = array[1];
+  return firstName[0].toUpperCase() +"."+secondName[0].toUpperCase()
+    // code away
+
+}
