@@ -1,0 +1,6 @@
+function points(games) {
+  let points=0;
+  games.forEach(element=>{ if(element[0]>element[2]) points+=3});
+  games.forEach(element=>{ if(element[0]==element[2]) points+=1});
+  return points
+}
