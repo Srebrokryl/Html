@@ -1,0 +1,5 @@
+function getAge(inputString){
+  let number = inputString.split(" ",1)
+  return +number
+// return the girl's correct age as an integer. Happy coding :) 
+}
