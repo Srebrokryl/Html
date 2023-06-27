@@ -1,0 +1,6 @@
+unction position(letter){
+  let alphabet="0abcdefghijklmnopqrstuvwxyz"
+  let pos=alphabet.indexOf(letter);
+  return "Position of alphabet: " + pos
+//Write your own Code!
+}
