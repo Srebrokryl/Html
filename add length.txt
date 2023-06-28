@@ -1,0 +1,9 @@
+function addLength(str) {
+  str=str.split(" ");
+  const array=[];
+  for(let i=0;i<str.length;i++){
+    array.push(str[i] + " "+ str[i].length)
+  }
+  return array
+//start-here
+}
