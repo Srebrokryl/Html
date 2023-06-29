@@ -1,0 +1,4 @@
+function unusualFive() {
+  const array =["qw", "tweo", "qw", "fqw","fqw"]
+  return array.length;
+}
