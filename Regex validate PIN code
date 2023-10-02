@@ -1,0 +1,5 @@
+function validatePIN (pin) {
+  let regex = /^[\d][\d][\d][\d]$|^[\d][\d][\d][\d][\d][\d]$/gi
+  return regex.test(pin)
+  //return true or false
+}
