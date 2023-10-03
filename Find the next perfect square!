@@ -1,0 +1,9 @@
+function findNextSquare(sq) {
+  for(let i=0;i<sq;i++){
+    if(Math.sqrt(sq)==i){
+      return Math.pow(i+1,2)
+      // Return the next square if sq is a perfect square, -1 otherwise
+ }
+    }
+    return -1
+}
