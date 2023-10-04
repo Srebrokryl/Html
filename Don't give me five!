@@ -1,0 +1,9 @@
+function dontGiveMeFive(start, end){
+  let sum=0;
+  for(let i=start;i<=end;i++){
+    if(!/5/gi.test(String(i))){
+      sum+=1
+    }
+  }
+  return sum;
+}
