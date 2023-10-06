@@ -1,0 +1,4 @@
+function firstNonConsecutive (arr) {
+ let a = arr.find((f,i)=>f!=arr[0]+i)
+ return Number.isInteger(a)?a:null
+}
