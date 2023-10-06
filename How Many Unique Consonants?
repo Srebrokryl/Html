@@ -1,0 +1,12 @@
+function countConsonants(str) {
+  let sum=0;
+  let arr = [...new Set(str.toLowerCase())];
+  for(let i=0;i<arr.length;i++){
+    if(!/[aeiou0-9\s!]/.test(arr[i])){
+      sum+=1
+    }
+  }
+  return sum
+  console.log(sum)
+// Your code here!
+}
