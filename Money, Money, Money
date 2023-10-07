@@ -1,0 +1,10 @@
+function calculateYears(principal, interest, tax, desired) {
+  let years=0;
+  let p0=principal;
+  for(let i=0;p0<desired;i++){
+    p0=p0+p0*interest*(1-tax)
+    years++
+  }
+  return years
+    // your code
+}
