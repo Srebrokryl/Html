@@ -1,0 +1,14 @@
+function nbDig(n,d) {
+  let arr=[];
+  let sum=0;
+  for(let i=0;i<=n;i++){
+    arr.push(i**2)
+  } 
+  let a=arr.join("").split("");
+  for(let i=0;i<a.length;i++){
+    if(a[i]==d){
+      sum++
+    }
+  }
+  return sum
+}
