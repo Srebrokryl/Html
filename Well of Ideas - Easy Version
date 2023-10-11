@@ -1,0 +1,15 @@
+function well(x){
+  let a=0;
+  for(let i=0;i<x.length;i++){
+    if(x[i]=="good"){
+      a+=1
+    }
+  }
+  if(a==0){
+    return "Fail!" 
+  } else if(a>2){
+    return "I smell a series!"
+  } else{
+    return "Publish!"
+  }
+}
