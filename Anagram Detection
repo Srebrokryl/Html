@@ -1,0 +1,10 @@
+// write the function isAnagram
+var isAnagram = function(test, original) {
+  let test1=test.toLowerCase().split("").sort().join("")
+  let original1=original.toLowerCase().split("").sort().join("");
+  if(test1==original1){
+    return true
+  } else{
+    return false
+  }
+};
